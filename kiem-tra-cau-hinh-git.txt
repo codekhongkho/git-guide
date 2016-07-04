@@ -1,2 +1,20 @@
+// kiểm tra các chi tiết về cấu hình
 Sử dụng lệnh:
-	$
+	$ git config --list
+	
+	Thông tin sẽ hiện thị ra:
+		user.name=Codekhongkho
+		user.email=contact@codekhongkho.com
+		color.status=auto
+		color.branch=auto
+		color.interactive=auto
+		color.diff=auto
+		...
+
+// kiểm tra một chi tiết nhất định nào đó
+Sử dụng lệnh:
+	Ví dụ:
+		$ git config user.name
+		$ git config user.email
+		
+	
