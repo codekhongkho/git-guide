@@ -1,0 +1,11 @@
+// commit thay đổi
+
+	Sử dụng:
+	
+		$ git commit
+	
+	Hoặc:
+		
+		$ git commit -v # show diff in commit message template
+		
+		$ git commit -m "Noi dung thay doi" # commit message

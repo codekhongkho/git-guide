@@ -1,0 +1,5 @@
+// xem các thay đổi Staged và Unstaged
+
+	Sử dụng:
+		
+		$ git diff
