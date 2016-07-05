@@ -1,0 +1,24 @@
+// đổi tên file trong git
+
+	Sử dụng:
+	
+		$ git mv README.txt README
+		
+		
+		$ git status
+		
+		Kết quả:
+			# On branch master
+			# Your branch is ahead of 'origin/master' by 1 commit.
+			#
+			# Changes to be committed:
+			#   (use "git reset HEAD <file>..." to unstage)
+			#
+			#       renamed:    README.txt -> README
+			
+		
+	Việc này tương tự với:
+		
+		$ mv README.txt README
+		$ git rm README.txt
+		$ git add README

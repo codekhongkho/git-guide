@@ -1,0 +1,6 @@
+// xóa file khỏi git
+	Sử dụng:
+	
+		$ git rm tenfile.txt 
+		
+		=>> file được staged mà đã xóa khỏi thư mục rồi thì bằng lệnh này sẽ xóa luôn khỏi git
