@@ -1,0 +1,17 @@
+// các trạng thái của file
+	tracked và untracked
+	
+	- tracked file: file đã có snapshot trong các lần commit trước đó
+		
+		Cái này lại có 3 loại:
+			unmodified, modified, staged.
+			
+			unmodified: chưa sửa.
+			modified: đã sửa.
+			staged: đã được staged để chuẩn bị cho commit.
+	
+	- untracked file: file chưa commit lần nào
+	
+// Nói thêm
+Khi mới clone một git repo về thì mặc định các file sẽ có trạng thái tracked và unmodified
+	

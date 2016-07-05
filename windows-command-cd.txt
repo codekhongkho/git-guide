@@ -1,0 +1,4 @@
+// đi tới một thư mục
+	Ví dụ:
+	 $ cd f:/Github
+	

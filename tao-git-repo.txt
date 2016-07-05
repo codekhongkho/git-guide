@@ -1,0 +1,16 @@
+// tạo kho chứa git từ một thư mục cũ
+Cần tạo ở trong thư mục đó và dùng lệnh:
+	$ cd thumuc (đi tới thư mục đó)
+	$ git init (tạo kho chứa)
+
+
+// sao chép một kho chứa đã tồn tại
+Ví dụ muốn sao chép một kho git từ github về máy:
+	$ git clone https://github.com/rogerdudler/git-guide.git
+	
+	Bây giờ nó sẽ tạo ra một thư mục có tên git-guide để chứa những file có trên kho git
+	
+		
+	Hoặc có thể clone vào thư mục mà mình muốn với lệnh:
+	$ git clone https://github.com/rogerdudler/git-guide.git huong-dan-git
+	
