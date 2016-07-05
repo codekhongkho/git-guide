@@ -9,3 +9,5 @@
 		$ git commit -v # show diff in commit message template
 		
 		$ git commit -m "Noi dung thay doi" # commit message
+		
+		$ git commit -a -m "Noi dung thay doi" # -a: bỏ qua bước staged file, bỏ qua bước git add của những file đã được tracked để bắt đầu commit

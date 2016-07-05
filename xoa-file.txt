@@ -1,0 +1,4 @@
+// xóa file
+	Sử dụng:
+	
+		$ rm tenfile.txt
