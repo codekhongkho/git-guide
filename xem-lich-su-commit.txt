@@ -1,0 +1,11 @@
+// xem lịch sử commit
+
+	Sử dụng:
+	
+		$ git log
+		
+// xem lịch sử commit trên giao diện đồ họa
+
+	Sử dụng:
+	
+		$ gitk
