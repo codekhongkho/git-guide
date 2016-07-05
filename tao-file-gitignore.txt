@@ -1,31 +1,31 @@
-// t?o file gitignore
+// tạo file gitignore
 
 	$ touch .gitignore
 	
-// file gitignore s? ch?a c?c m?u bi?u th? cho t?n file, t?n folder
-// nh?ng t?n file, t?n folder, ho?c t? h?p t?n file c? trong file gitignore th? b? b? qua trong t?t c? thao t?c v?i git
+// file gitignore sẽ chứa các biểu thị cho tên file, tên folder
+// những tên file, tên folder, hoặc tên tập hợp file có trong file gitignore thì bị bỏ qua trong tất cả thao tác với git
 
-// n?i dung m?u c?a file gitignore
+// nội dung mẫu của file gitignore
 
 	*.[oa]
 	*~
 	
-	// d?ng ??u: nh?ng file c? ?u?i .o ho?c .a th? b? b? qua
-	// d?ng sau: file c? t?n l? d?u ~ s? b? b? qua
+	// dòng đầu: những file có đuôi .o hoặc .a thì bị bỏ qua
+	// dòng sau: file có tên là dấu ~ sẽ bị bỏ qua
 	
 
-// m?u file
+// mẫu file
 
-	# a comment - d?ng n?y ???c b? qua
-	# kh?ng theo d?i t?p tin c? ?u?i .a 
+	# a comment - dòng này được bỏ qua
+	# không theo dõi tập tin có đuôi .a 
 	*.a
-	# nh?ng theo d?i t?p lib.a, m?c d? b?n ?ang b? qua t?t c? t?p tin .a ? tr?n
+	# nhưng theo dõi tập lib.a, mặc dù bạn đang bỏ qua tất cả tập tin .a ở trên
 	!lib.a
-	# ch? b? qua t?p TODO ? th? m?c g?c, ch? kh?ng ph?i ? c?c th? m?c con subdir/TODO
+	# chỉ bỏ qua tập TODO ở thư mục gốc, chứ không phải ở các thư mục con subdir/TODO
 	/TODO
-	# b? qua t?t c? t?p tin trong th? m?c build/
+	# bỏ qua tất cả tập tin trong thư mục build/
 	build/
-	# b? qua doc/notes.txt, kh?ng ph?i doc/server/arch.txt
+	# bỏ qua doc/notes.txt, không phải doc/server/arch.txt
 	doc/*.txt
-	# b? qua t?t c? t?p .txt trong th? m?c doc/
+	# bỏ qua tất cả tập .txt trong thư mục doc/
 	doc/**/*.txt
