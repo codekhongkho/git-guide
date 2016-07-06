@@ -1,0 +1,15 @@
+// hiển thị tất cả máy chủ đã remote
+
+	Sử dụng:
+		$ git remote
+		
+		kết quả có thể: origin
+		
+	Hoặc:
+	
+		$ git remote -v
+		
+		kết quả có thể:
+		
+			origin  git://github.com/codekhongkho/git-guide.git (fetch)
+			origin  git://github.com/codekhongkho/git-guide.git (push)

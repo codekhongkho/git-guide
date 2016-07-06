@@ -1,0 +1,18 @@
+// thay đổi commit cuối cùng
+
+	Sử dụng:
+	
+		$ git commit --amend
+		
+// loại bỏ file khỏi staged
+
+	Sử dụng:
+	
+		$ git reset HEAD readme.txt
+
+// phục hồi file đã thay đổi (Undo)
+
+	Sử dụng:
+	
+		$ git checkout -- readme.txt
+		
