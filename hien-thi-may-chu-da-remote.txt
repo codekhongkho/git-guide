@@ -13,3 +13,11 @@
 		
 			origin  git://github.com/codekhongkho/git-guide.git (fetch)
 			origin  git://github.com/codekhongkho/git-guide.git (push)
+			
+// xem chi tiết về một máy chủ trung tâm
+
+	Sử dụng:
+	
+		$ git remote show origin
+		
+		=>> origin: tên máy chủ trung tâm

@@ -1,0 +1,44 @@
+*làm việc với kho chứa từ xa*
+
+// thêm các kho chứa remote
+
+	Sử dụng:
+		Ví dụ:
+		
+			$ git remote add codekhongkho git://github.com/codekhongkho/git-guide.git
+			
+// truy cập và kéo dữ liệu về từ máy chủ trung tâm
+
+	Sử dụng:
+		Ví dụ:
+		
+			$ git fetch origin # kéo dữ liệu về từ origin (remote name)
+			
+			=>> lấy dữ liệu về và gộp tự động vào branch hiện tại đang làm việc
+			
+			$ git pull
+			
+			=>> lấy dữ liệu về nhưng cho phép bạn gộp thủ công vào một branch nào đó trong thư mục git ở máy tính
+			
+// đẩy dữ liệu lên máy tính trung tâm
+
+	Sử dụng:
+	
+		$ git push origin master
+		
+		=>> origin: tên máy chủ, master: tên nhánh
+		
+// xóa và đổi remote
+
+	Đổi tên:
+	
+		$ git remote rename git-guide gitguide
+		
+		=>> sửa git-guide thành gitguide
+
+	Xóa:
+	
+		$ git remote rm gitguide
+		
+		=>> xóa remote gitguide
+		

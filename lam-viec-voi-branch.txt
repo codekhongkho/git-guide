@@ -1,0 +1,23 @@
+*làm việc với branch*
+
+// xem các branch đang có trong working tree
+
+	Sử dụng:
+	
+		$ git branch
+		
+// tạo một branch mới trong working tree
+
+	Sử dụng:
+	
+		$ git branch develop
+		
+		=>> tạo branch có tên develop
+		
+// checkout một branch
+
+	Sử dụng:
+	
+		$ git checkout develop
+		
+		
