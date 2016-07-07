@@ -30,4 +30,34 @@
 			$ git merge develop
 			$ ls
 			
+// xóa branch
+
+	Sử dụng:
+	
+		$ git branch -d develop
+		
+// làm việc với remote branch
+
+	$ git remote -v
+	
+	=>> xem có các remote nào
+	
+	$ git remote show origin
+	
+	=>> xem remote có tên origin có những branch nào
+	
+	$ git branch temp
+	$ git checkout temp
+	$ git pull origin gh-pages
+	
+	=>> tạo mới branch temp cho working tree, sau đó nạp dữ liệu trong branch gh-pages của origin về
+	
+	Để push dữ liệu lên lại remote repository thì dùng:
+	
+		$ git push origin master
+		
+		=>> origin: tên remote của repository và master: tên branch
+	
+	
+			
 		
