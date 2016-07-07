@@ -20,4 +20,10 @@
 	
 		$ git checkout develop
 		
+// gộp dữ từ một branch
+
+	Sử dụng:
+	
+		Ví dụ:
+			
 		
