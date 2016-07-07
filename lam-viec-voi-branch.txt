@@ -24,6 +24,10 @@
 
 	Sử dụng:
 	
-		Ví dụ:
+		Ví dụ: chuyển dữ liệu tử branch develop về master
+		
+			$ git checkout master
+			$ git merge develop
+			$ ls
 			
 		
